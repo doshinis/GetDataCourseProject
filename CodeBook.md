@@ -23,7 +23,7 @@ Please refer to the base dataset readme.txt, features.txt, and features_info.txt
 
 Activity:    character string OR VARCHAR(50)
     
-    Six activities performed by each subject. The original activity codes in y_train and y_test have been replaced by descriptive activity names retrieved from activity_labels.txt
+Six activities performed by each subject. The original activity codes in y_train and y_test have been replaced by descriptive activity names retrieved from activity_labels.txt
     
     1 WALKING
     2 WALKING_UPSTAIRS
@@ -34,14 +34,14 @@ Activity:    character string OR VARCHAR(50)
     
 Subject:     digit number between 1 to 30 
     
-    The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
 
     1 to 30
     
 
 Features Variables - Description and transformation
 
-    The features selected for this database come from the original dataset, in which the accelerometer and gyroscope 3-axial raw signals (X, Y, and Z) were processed to estimate there variables as time domain (t prefix) and frequence domain ('f' prefix) signals. The original 561 feature variables were subsequently processed to extract only two types of variables: mean and standard deviation resulting in 66 variables across X_train and X_test for 10299 observations. The 10299 observations were further grouped by activity and subject, and finally summarized by calculating mean. The final result set consists of 180 observations (for 30 subjects, 6 activities each). Note that postfix '-X', '-Y', '-Z' denotes 3-axial signals in the X, Y and Z directions.
+The features selected for this database come from the original dataset, in which the accelerometer and gyroscope 3-axial raw signals (X, Y, and Z) were processed to estimate there variables as time domain (t prefix) and frequence domain ('f' prefix) signals. The original 561 feature variables were subsequently processed to extract only two types of variables: mean and standard deviation resulting in 66 variables across X_train and X_test for 10299 observations. The 10299 observations were further grouped by activity and subject, and finally summarized by calculating mean. The final result set consists of 180 observations (for 30 subjects, 6 activities each). Note that postfix '-X', '-Y', '-Z' denotes 3-axial signals in the X, Y and Z directions.
 
 TIDY Feature Variables:    numeric (double) values
 
